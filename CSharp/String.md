@@ -164,5 +164,6 @@ string joined = string.Join(";", fruits);
 string s1 = "Hello";
 string s2 = "World";
 string concat = string.Concat(s1,s2);
+```
 ---
 ---
