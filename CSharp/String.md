@@ -63,6 +63,7 @@ int index = s.IndexOf('o');
 
 #### IndexOfAny()
 Ищет первый символ из указанного массива.
+``` csharp
 string text = "Hello, World!";
 
 char[] charsToFind = { '0', '1', '2', ',', '!' };
