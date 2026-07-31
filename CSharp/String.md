@@ -13,12 +13,14 @@
 - [Вернуться в начало](#Массивы)
 
 #### Length
+Кол-во символов в строке.
 ``` csharp
 string a = "Hello";
 int len = a.Length; // 5
 ```
 
 #### [index]
+Можно получить символ по индексу.
 ``` csharp
 string s = "Hello world";
 char ch = s[1]; // 'e'
