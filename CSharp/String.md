@@ -73,3 +73,68 @@ Console.WriteLine(index); // 5, потому что ',' в text находитс
 ```
 ---
 ---
+
+## Модификация
+- [Вернуться в начало](#Массивы)
+
+#### ToLower()/ToUpper()
+Преобразует регистр.
+``` csharp
+string s = "Hello World";
+
+string upper = s.ToUpper();
+string lower = s.ToLower();
+```
+
+#### Trim()
+Удаляет пробелы(или указанный символ) в начале и конце.
+``` csharp
+string s = " Hello ";
+string trimmed = s.Trim();
+```
+
+#### Trim()
+Удаляет пробелы(или указанный символ) в начале и конце.
+``` csharp
+string s = " Hello ";
+string trimmed = s.Trim();
+```
+
+#### TrimStart()/TrimEnd()
+Удаляет только слева или только справа.
+``` csharp
+string s = " Hello ";
+string trimmed = s.TrimStart();
+string trimmed2 = s.TrimEnd();
+```
+
+#### Replace()
+Меняет все вхождения одной подстроки на другую.
+``` csharp
+string s = "Hello";
+string replaced = s.Replace("l", "L");
+```
+
+#### Replace()
+Удаляет символы с указанной позиции.
+``` csharp
+string s = "Hello";
+string replaced = s.Remove(2);
+```
+
+#### Insert()
+Вставляет подстроку в указанную позицию.
+``` csharp
+string s = "Hello";
+string inserted = s.Insert(6, "Beautiful"); // Ставит перед 6 подстроку
+```
+
+#### PadLeft()/PadRight()
+Дополняет строку символами до нужной длины.
+``` csharp
+string s = "Hello";
+string padleft = s.PadLeft(10, '0'); // Добавит перед Hello пять 0
+string padright = s.PadRight(10, '0'); // Добавляет после Hello пять 0
+```
+---
+---
