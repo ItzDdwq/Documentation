@@ -50,7 +50,7 @@ matrix[0][0] = 2;
 ```
 Получить данные из ячейки
 ```csharp
-Console.WriteLine(numbers[0][0);
+Console.WriteLine(numbers[0][0]);
 ```
 ---
 ---
