@@ -6,6 +6,7 @@
 - [Базовые методы](#базовые-методы)
 - [Поиск и проверка содержимого](#поиск-и-проверка-содержимого)
 - [Модификации](#модификации)
+- [Разделение и объединение](#разделение-и-объединение)
 
 
 ---
@@ -136,5 +137,32 @@ string s = "Hello";
 string padleft = s.PadLeft(10, '0'); // Добавит перед Hello пять 0
 string padright = s.PadRight(10, '0'); // Добавляет после Hello пять 0
 ```
+---
+---
+
+## Разделение и объединение
+- [Вернуться в начало](#Массивы)
+
+#### Split()
+Разбивает строку на массив подстрок по разделителю.
+``` csharp
+string csv = "apple,banana,orange";
+string[] fruits = csv.Split(','); // ["apple", "banana", "orange"]
+```
+
+#### Join()
+Объединяет массив строк в одну с указанным разделителем.
+``` csharp
+string csv = "apple,banana,orange";
+string[] fruits = csv.Split(',');
+string joined = string.Join(";", fruits);
+```
+
+#### Concat()
+Объединяет несколько строк.
+``` csharp
+string s1 = "Hello";
+string s2 = "World";
+string concat = string.Concat(s1,s2);
 ---
 ---
