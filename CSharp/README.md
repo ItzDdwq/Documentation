@@ -4,6 +4,7 @@
 - [Массивы](Arrays.md)
 - [Строки](String.md)
 - [Инструкции](Instructions.md)
+- [Переменные](Variables.md)
 ---
 
 
