@@ -7,6 +7,8 @@
 - [Поиск и проверка содержимого](#поиск-и-проверка-содержимого)
 - [Модификации](#модификации)
 - [Разделение и объединение](#разделение-и-объединение)
+- [Форматирование](#форматирование)
+- [Работа с массивами символов](#работа-с-массивами-символов)
 
 
 ---
@@ -164,6 +166,79 @@ string joined = string.Join(";", fruits);
 string s1 = "Hello";
 string s2 = "World";
 string concat = string.Concat(s1,s2);
+```
+---
+---
+
+## Форматирование
+- [Вернуться в начало](#Массивы)
+
+#### Format()
+Подставляет значение в строку с плейсхолдерами.
+``` csharp
+string name = "Ddwq";
+int age = 13;
+string result = string.Format("Name = {0}, Age = {1}", name, age);
+```
+---
+---
+
+## Работа с массивами символов
+- [Вернуться в начало](#Массивы)
+
+#### ToCharArray()
+Преобразует строку в массив символов.
+``` csharp
+string s = "Hello;
+char[] chars = s.ToCharArray();
+```
+
+#### new string(char[])
+Создаёт строку из массива символов.
+``` csharp
+char[] chars = {'H', 'e', 'l', 'l', 'o');
+string s = new string(chars);
+```
+---
+---
+
+## Дополнительные полезные методы
+- [Вернуться в начало](#Массивы)
+
+#### ToString()
+Возвращает саму строку.
+``` csharp
+int number = 123;
+string str = number.ToString();
+```
+
+#### Clone()
+Создаёт копию строки.
+``` csharp
+string s1 = "Hello";
+string s2 = (string)s1.Clone();
+```
+
+#### GetEnumerator()
+Позволяет итерироваться по символам.
+``` csharp
+string s = "Hello";
+foreach (char c in s){
+    Console.WriteLine(c);
+}
+```
+
+#### Compare()
+Статическое сравнение двух строк с учётом культуры.
+``` csharp
+int result = string.Compare("apple", "banana");
+```
+
+#### Copy()
+Создает новую строку с тем же содержимым.
+``` csharp
+string s1 = "Hello";
+string s2 = string.Copy(s1);
 ```
 ---
 ---
