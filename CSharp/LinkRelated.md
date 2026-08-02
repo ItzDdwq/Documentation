@@ -17,7 +17,26 @@
 
 [См. Методы строки](String.md)
 
+``` csharp
+string name = "Ddwq";
+string hello = "Hello";
+```
 
+---
+---
+
+
+## Object
+- [Вернуться в начало](#Ссылочные-переменные)
+
+Любой тип наследуется от ``` csharp
+object
+```. 
+
+``` csharp
+string name = "Ddwq";
+string hello = "Hello";
+```
 
 ---
 ---
