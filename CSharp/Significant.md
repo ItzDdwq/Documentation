@@ -82,7 +82,7 @@
 
 Позволяет создать набор именованных констант.
 
-``` charp
+``` csharp
 enum dayOfWeek byte : byte {Monday, Tuesday, Wednesday}
 ```
 
@@ -95,7 +95,7 @@ enum dayOfWeek byte : byte {Monday, Tuesday, Wednesday}
 
 Пользовательский тип данных.
 
-``` charp
+``` csharp
 struct Point {
     public int X;
     public int X;
