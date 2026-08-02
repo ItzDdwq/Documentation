@@ -29,9 +29,10 @@ string hello = "Hello";
 ## Object
 - [Вернуться в начало](#Ссылочные-переменные)
 
-Любой тип наследуется от ``` csharp
-object
-```. 
+Любой тип наследуется от 
+``` csharp
+  object
+```
 
 ``` csharp
 string name = "Ddwq";
