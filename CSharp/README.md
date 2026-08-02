@@ -4,7 +4,7 @@
 - [Массивы](Arrays.md)
 - [Строки](String.md)
 - [Инструкции](Instructions.md)
-- [Переменные](Variables.md)
+- [Числовые апеременные](Numeric-variables.md)
 ---
 
 
