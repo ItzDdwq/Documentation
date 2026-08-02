@@ -29,14 +29,30 @@ string hello = "Hello";
 ## Object
 - [Вернуться в начало](#Ссылочные-переменные)
 
-Любой тип наследуется от 
-``` csharp
-  object
-```
+Любой тип наследуется от **object**.
 
 ``` csharp
-string name = "Ddwq";
-string hello = "Hello";
+object a = 123;
+object b = "Привет";
+
+int c = (int)a + 5;
+```
+
+---
+---
+
+
+## Dynamic
+- [Вернуться в начало](#Ссылочные-переменные)
+
+Это тип который выключает проверку компилятора.
+
+``` csharp
+dynamic a = 123;
+dynamic b = "Привет";
+
+int c = a + 5;
+int d = b + 5; 
 ```
 
 ---
