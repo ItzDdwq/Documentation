@@ -7,6 +7,7 @@
 - [Переменные](Variables.md)
 - [Модификаторы доступа](AccessModifiers.md)
 - [Nullable](Nullable.md)
+- [Properties](Properties.md)
 ---
 
 
