@@ -28,7 +28,7 @@ public class Home{
 
 
 ## Изменение Данных
-- [Вернуться в начало](#Массивы)
+- [Вернуться в начало](#Properties)
 
 ``` csharp
 public class Person{
