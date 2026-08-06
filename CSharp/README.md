@@ -8,8 +8,7 @@
 - [Модификаторы доступа](AccessModifiers.md)
 - [Nullable](Nullable.md)
 - [Properties](Properties.md)
+- [Lists](Lists.md)
+- [Делегаты](Delegats.md)
 ---
-
-
-
 
