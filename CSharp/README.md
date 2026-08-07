@@ -10,5 +10,12 @@
 - [Properties](Properties.md)
 - [Lists](Lists.md)
 - [Делегаты](Delegats.md)
+- [Generics](Generics.md)
+- [Interfaces](Interfaces.md)
+- [Асинхронность](AsyncAwait.md)
+- [Лямбды](Lambds.md)
+- [Linq](Linq.md)
+- [Методы расширений](MethodsExtensions.md)
+- [TryCatch](TryCatch.md)
 ---
 
